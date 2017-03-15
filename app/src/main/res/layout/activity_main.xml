@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.domaci.cs330_dz03.MainActivity">
+
+    <EditText
+        android:id="@+id/mainTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="#42a7f4"
+        android:textCursorDrawable="@null"
+        android:textColor="#010405"/>
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/mainTextBox"
+        android:text="Prvo dugme" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnOne"
+        android:text="Drugo dugme" />
+
+    <Button
+        android:id="@+id/nextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnTwo"
+        android:text="Prebaci na drugi zadatak"/>
+
+</RelativeLayout>
